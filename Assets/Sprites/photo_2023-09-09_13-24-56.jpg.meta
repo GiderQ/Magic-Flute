@@ -1,25 +1,10 @@
 fileFormatVersion: 2
-guid: d96611a7b7ba03349b673cb1ee9ce3e5
+guid: f88fc34148f46224eb1dec0b9fc5d57f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4019097937451829302
-    second: MainMenuButton_0
-  - first:
-      213: 1678278478358739047
-    second: MainMenuButton_1
-  - first:
-      213: -4759216707479714203
-    second: MainMenuButton_2
-  - first:
-      213: 4614342308545453378
-    second: MainMenuButton_3
-  - first:
-      213: -4780821099455803201
-    second: MainMenuButton_4
-  - first:
-      213: 9217868632306854946
-    second: MainMenuButton_5
+      213: 1612952690545204376
+    second: photo_2023-09-09_13-24-56_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -154,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MainMenuButton_0
+      name: photo_2023-09-09_13-24-56_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 66
-        width: 60
-        height: 18
+        x: 0
+        y: 0
+        width: 960
+        height: 1280
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,118 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ac7bda058bb4938c0800000000000000
-      internalID: -4019097937451829302
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MainMenuButton_1
-      rect:
-        serializedVersion: 2
-        x: 82
-        y: 67
-        width: 59
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 76871c852617a4710800000000000000
-      internalID: 1678278478358739047
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MainMenuButton_2
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 47
-        width: 76
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5664195be9dd3fdb0800000000000000
-      internalID: -4759216707479714203
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MainMenuButton_3
-      rect:
-        serializedVersion: 2
-        x: 82
-        y: 48
-        width: 75
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 24d58ecb1ef690040800000000000000
-      internalID: 4614342308545453378
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MainMenuButton_4
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 28
-        width: 44
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fb09e383a8c17adb0800000000000000
-      internalID: -4780821099455803201
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MainMenuButton_5
-      rect:
-        serializedVersion: 2
-        x: 82
-        y: 29
-        width: 43
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 22cadd6cea27cef70800000000000000
-      internalID: 9217868632306854946
+      spriteID: 89c157f1deb526610800000000000000
+      internalID: 1612952690545204376
       vertices: []
       indices: 
       edges: []
@@ -299,12 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      MainMenuButton_0: -4019097937451829302
-      MainMenuButton_1: 1678278478358739047
-      MainMenuButton_2: -4759216707479714203
-      MainMenuButton_3: 4614342308545453378
-      MainMenuButton_4: -4780821099455803201
-      MainMenuButton_5: 9217868632306854946
+      photo_2023-09-09_13-24-56_0: 1612952690545204376
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
