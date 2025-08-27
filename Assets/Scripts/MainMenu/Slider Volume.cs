@@ -13,7 +13,7 @@ public class SliderVolume : MonoBehaviour
         {
             LoadVolume();
         }
-        SetMusicVolume();
+        else SetMusicVolume();
     }
     public void SetMusicVolume()
     {
