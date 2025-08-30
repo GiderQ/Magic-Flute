@@ -3,19 +3,26 @@ using TMPro;
 public class CheckInfo : MonoBehaviour
 {
     string infoText;
-    public TMPro.TextMeshPro windowText;
-    void Start()
+    bool Active;
+    public TextMeshProUGUI windowText;
+    public GameObject DialogeWindow,DialogeInfo;
+    void Update()
     {
-
+        if (Active && Input.GetKeyDown(KeyCode.E))
+        {
+            DialogeWindow.SetActive(true);
+            TextMeshProUGUI DialogeText = DialogeInfo.gameObject.GetComponentInChildren<TextMeshProUGUI>();
+            DialogeText.text = infoText;
+        }
     }
-    void OnCollisionStay2D(Collision2D other)
+    private void OnCollisionStay2D(Collision2D other)
     {
-        if (other.transform.tag == "object")
+        if (other.transform.tag == "Object")
         {
             InfoObject infoObject = other.gameObject.GetComponent<InfoObject>();
-            infoObject.info = infoText;
-
-            Debug.Log("OnCollisionStay! object ");
+            infoText = infoObject.info;
+            Active = true;
+            Debug.Log(infoText);
         }
     }
 }
