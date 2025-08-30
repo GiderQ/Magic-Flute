@@ -7438,7 +7438,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 4216440181475918674, guid: 2372a75949e00a142b01fa4e6329a375, type: 3}
+  m_Sprite: {fileID: 1011537904424039885, guid: 2372a75949e00a142b01fa4e6329a375, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8544,6 +8544,8 @@ MonoBehaviour:
   windowText: {fileID: 1739171931}
   DialogeWindow: {fileID: 1021528760}
   DialogeInfo: {fileID: 1739171929}
+  DialogeIcon: {fileID: 773154235}
+  DialogeWindowInfo: {fileID: 1011537904424039885, guid: 2372a75949e00a142b01fa4e6329a375, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

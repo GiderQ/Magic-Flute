@@ -8,7 +8,9 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 input;
     private Vector2 currentVelocity;         
-    private Vector2 velocityRef;            
+    private Vector2 velocityRef;
+
+    public static bool pause = false;
 
     void Start()
     {
@@ -17,20 +19,26 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        input.x = Input.GetAxisRaw("Horizontal");
-        input.y = Input.GetAxisRaw("Vertical");
-        input = input.normalized;
+        if (!pause)
+        {
+            input.x = Input.GetAxisRaw("Horizontal");
+            input.y = Input.GetAxisRaw("Vertical");
+            input = input.normalized;
+        }
     }
 
     void FixedUpdate()
     {
-        currentVelocity = Vector2.SmoothDamp(
+        if (!pause)
+        {
+            currentVelocity = Vector2.SmoothDamp(
             currentVelocity,
             input * moveSpeed,
             ref velocityRef,
             smoothTime
         );
 
-        rb.MovePosition(rb.position + currentVelocity * Time.fixedDeltaTime);
+            rb.MovePosition(rb.position + currentVelocity * Time.fixedDeltaTime);
+        }
     }
 }
